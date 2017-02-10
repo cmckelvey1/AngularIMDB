@@ -1,0 +1,1 @@
+angular.module('ShowTrackerApp.core', ['ui.bootstrap', 'app.services'])
