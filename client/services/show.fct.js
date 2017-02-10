@@ -1,5 +1,5 @@
 angular
-	.module('ShowTrackerApp')
+	.module('ShowTrackerApp.services')
 	.constant('API_KEY', '888abe3d5c5f2bcc61457f63e0f13461')
 	.constant('BASE_URL', 'https://api.themoviedb.org/3')
 	.factory('ShowService', dataService);
