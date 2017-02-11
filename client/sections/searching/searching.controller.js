@@ -9,5 +9,5 @@ angular.module('ShowTrackerApp.core').controller('SearchingController', function
 		});
 	};
 
-	vm.query('Game of Thrones');
+	// vm.query('Game of Thrones');
 });

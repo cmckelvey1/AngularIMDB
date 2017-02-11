@@ -1,7 +1,7 @@
 angular
 	.module('ShowTrackerApp.services')
 	.constant('API_KEY', '888abe3d5c5f2bcc61457f63e0f13461')
-	.constant('BASE_URL', 'https://api.themoviedb.org/3')
+	.constant('BASE_URL', 'http://api.themoviedb.org/3')
 	.factory('ShowService', dataService);
 
 function dataService($http, $log, API_KEY, BASE_URL) {
@@ -11,7 +11,7 @@ function dataService($http, $log, API_KEY, BASE_URL) {
 	};
 
 	function makeRequest(url, params){
-		var requestUrl = BASE_URL + '/' + url + 'api_key=' + API_KEY;
+		var requestUrl = BASE_URL + '/' + url + '?api_key=' + API_KEY;
 
 		angular.forEach(params, function(value, key){
 			requestUrl = requestUrl + '&' + key + '=' + value;
