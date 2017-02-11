@@ -19,7 +19,7 @@ function dataService($http, $log, API_KEY, BASE_URL) {
 
 		return $http({
 			'url':requestUrl,
-			'method': GET,
+			'method': 'GET',
 			'headers': {'Content-Type': 'application/json'},
 			'cache': true
 		}).then(function(response){

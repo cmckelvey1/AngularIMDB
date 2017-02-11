@@ -1,4 +1,4 @@
-// app.js
+	// app.js
 angular
     .module('ShowTrackerApp.routes', ['ui.router'])
     .config(routes);

@@ -1,1 +1,1 @@
-angular.module('ShowTrackerApp.core', ['ui.bootstrap', 'ShowTrackerApp.services'])
+angular.module('ShowTrackerApp.core', ['ui.bootstrap'])

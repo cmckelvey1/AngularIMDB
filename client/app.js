@@ -1,1 +1,5 @@
-angular.module('ShowTrackerApp', ['ShowTrackerApp.core', 'ShowTrackerApp.routes']);
+angular.module('ShowTrackerApp', [
+		'ShowTrackerApp.core', 
+		'ShowTrackerApp.routes', 
+		'ShowTrackerApp.services'
+]);

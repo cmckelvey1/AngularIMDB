@@ -1,8 +1,8 @@
-angular.module('ShowTrackerApp.core').controller('SearchingController', function(ShowServices){
+angular.module('ShowTrackerApp.core').controller('SearchingController', function(ShowService){
 	var vm = this;
 
 	vm.query = function(query){
-		ShowServices.search(query).then(function(response){
+		ShowService.search(query).then(function(response){
 			console.log(response);
 		}).catch(function(error){
 
